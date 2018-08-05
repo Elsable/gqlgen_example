@@ -1,0 +1,17 @@
+schema: schema.graphql
+
+exec:
+  filename: graph/generated/generated.go
+  package: generated
+
+model:
+  filename: models/generated.go
+  package: models
+
+resolver:
+  filename: resolver.go
+  type: Resolver
+
+models:
+  Todo:
+    model: github.com/conradwt/gqlgen_example/models.Todo
